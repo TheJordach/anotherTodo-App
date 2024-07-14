@@ -7,11 +7,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     href="https://yet-another-todo-asp26dy9s-jordach-makayas-projects.vercel.app" 
     target="_blank" 
     style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; color: white;">
-    See the deployed version
+    Click here to See the deployed version
   </a>
    
 </div>
-<div>
+<div style="padding-top: 8px ">
 <img src = "public/project_Screenshot.png" >
 </div>
 
