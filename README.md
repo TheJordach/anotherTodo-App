@@ -2,7 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
-## Development server
+<div style="padding: 15px; background-color: #8514f5; margin-bottom: 20px">
+  <a 
+    href="https://yet-another-todo-asp26dy9s-jordach-makayas-projects.vercel.app" 
+    target="_blank" 
+    style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; color: white;">
+    See the deployed version
+  </a>
+   
+</div>
+<div>
+<img src = "public/project_Screenshot.png" >
+</div>
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
