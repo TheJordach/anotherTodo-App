@@ -6,7 +6,7 @@ export class TodoList {
     public items: TodoItem[] = []
   ) {}
 
-  addTodo(task: string) {
+  addItem(task: string) {
     this.items.push(new TodoItem(task))
   }
 
@@ -14,7 +14,7 @@ export class TodoList {
     return this.items.filter(item => !item.completed)
   }
 
-  get todoListitems(): readonly TodoItem[] {
+  get todoListItems(): readonly TodoItem[] {
     return this.items
   }
 }

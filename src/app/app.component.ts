@@ -26,4 +26,18 @@ export class AppComponent {
   get itemCount(): number {
     return this.list.items.filter(item => !item.completed).length
   }
+
+  get items(): readonly TodoItem[] {
+    return this.list.todoListItems.filter(
+      item => !item.completed || this.showComplete
+    )
+  }
+
+  addItem(description: string) {
+    if (description) {
+      this.list.addItem(description)
+    }
+  }
+
+  showComplete = false
 }
